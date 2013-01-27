@@ -1,17 +1,25 @@
 $color-background: #BFDDA1;
 $color-primary: #762642;
-$color-secondary: #004400;
+$color-secondary: #003300;
+
+html,
+body {
+	height: 100%;
+}
 
 body {
 	background-color: $color-background;
 	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-size: 22px;
 	color: $color-secondary;
 }
 
 article {
-	max-width: 600px;
+	height: 100%;
+	max-width: 800px;
 	margin: auto;
 	padding: 10px 25px;
+	background-color: #FFF;
 }
 
 h1 {
@@ -25,7 +33,7 @@ a {
 }
 
 .main {
-	//padding: 10px 25px;
+	min-height: 100%;
 }
 
 .tagline {
